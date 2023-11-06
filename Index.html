@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Meta descripción-->
+	<meta name="descripcion" content="Frase descripción de la web">
+	<!-- Meta Keywords -->
+	<meta name="keywords" content="Palabra clave 1, Palabra clave 2, Palabra clave 3">
+	<!-- Meta Author -->
+	<meta name="author" content="Guillem Fernández López">
+	<!-- Copyright -->
+	<meta name="copyright" content="Propietario del Copyright Guillem Fernández López">
+	<!-- Meta Revisión -->
+	<meta name="revised" content="Marzo 2023">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css'><link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" href="Media/Fabicon.png">
+	<link rel="stylesheet" href="CSS/Style.css">
+	<link rel="stylesheet" href="FontAwesome/CSS/all.css">
+	<script src="https://kit.fontawesome.com/16894d12c8.js" crossorigin="anonymous"></script>
+	<title>Portafolio</title>
+</head>
+<body>
+
+		<!-- partial:index.partial.html -->
+	<!-- particles.js container -->
+	<div id="particles-js"></div>
+
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<!-- partial -->
+	
+
+	<script src="JS/script.js"></script>
+
+
+	<input type="checkbox" id="burger-toggle">
+	<label for="burger-toggle" class="burger-menu">
+	  <div class="line"></div>
+	  <div class="line"></div>
+	  <div class="line"></div>
+	</label>
+	<div class="menu">
+	  <div class="menu-inner">
+	    <ul class="menu-nav">
+	      <li class="menu-nav-item"><a class="menu-nav-link" href="Index.html"><span>
+	            <div>Home</div>
+	          </span></a></li>
+	      <li class="menu-nav-item"><a class="menu-nav-link" href="IndexAboutMe.html"><span>
+	            <div>Sobre mi</div>
+	          </span></a></li>
+	      <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+	            <div>Servicios</div>
+	          </span></a></li>
+	      <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+	            <div>Contacto</div>
+	          </span></a></li>
+	    </ul>
+	    <div class="gallery">
+	      <div class="title">
+	        <p>TRABAJOS DESTACADOS</p>
+	      </div>
+	      <div class="images">
+	        <a class="image-link" href="IndexTPer.html">
+	          <div class="image" data-label="Wings"><img src="Media/TPer/Foto4.JPG" alt=""></div>
+	        </a>
+	        <a class="image-link" href="IndexWebs.html">
+	          <div class="image" data-label="Web"><img src="Media/TPer/W2.png" alt=""></div>
+	        </a>
+	        <a class="image-link" href="IndexTPro.html">
+	          <div class="image" data-label="Japan"><img src="Media/TPro/Pro2.jpg" alt=""></div>
+	        </a>
+	        <a class="image-link" href="IndexTPro.html">
+	          <div class="image" data-label="Dragon"><img src="Media/TPro/Pro4.jpg" alt=""></div>
+	        </a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- partial -->
+
+
+	<section id="fondo">
+		<div id="info">
+			<div class="titolInfo">
+				<h1 class="nombre">GUILLEM <br> FERNÁNDEZ</h1>
+			</div>
+
+			<div class="linia1"></div>
+			<div class="linia2"></div>
+
+			<div class="titolPort">
+				<h1 class="titolDoc">PORTAFOLIO</h1>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="parte2">
+			<h1 class="nombre">TRABAJOS <br> PERSONALES</h1>
+			<div class="linia3"></div>
+			<div class="linia4"></div>
+
+			<a href="IndexTPer.html"><img class="foto1" src="Media/TPer/Foto1.jpg" alt=""></a>
+	</section>
+
+	<section class="parte3">
+		<div>
+			<h1 class="nombre">TRABAJOS <br> PROFESIONALES</h1>
+		</div>
+			<div class="linia5"></div>
+			<div class="linia6"></div>
+
+			<a href="IndexTPro.html"><img src="Media/TPro/Pro1.jpg" alt=""></a>
+	</section>
+
+	<section id="parte4">
+		<div>
+			<h1 class="nombre am">ABOUT ME</h1>
+		</div>
+			<div class="linia7"></div>
+			<div class="linia8"></div>
+
+			<a href="IndexAboutMe.html"><img src="Media/AMe/Guillem.jpg" alt=""></a>
+	</section>
+
+	<section id="parte5">
+		<div>
+			<h1 class="nombre">CONTACTO</h1>
+		</div>
+			<div class="linia9"></div>
+			<div class="linia10"></div>
+
+			<h1 class="textCont">Telef. de contacto: 695287468 <br> Email: gfernandezlopez10@gmail.com <br> Direcion: C/La Riera de Peteco 69 <br> Guillem Fernández López <br> EASD La Llotja</h1>
+
+			<h4 class="textCopy">Atencion! Todo el contenido de esta pagina web tiene derechos de autor protegidos con copyright<i class="fa-regular fa-copyright copy"></i></h4>
+
+			
+	</section>
+
+	<script>
+	// Código JavaScript para el desplazamiento suave al hacer scroll con la rueda del ratón
+
+	// Seleccionar todas las secciones
+	var sections = document.querySelectorAll('section');
+
+	// Agregar el evento 'wheel' al documento
+	document.addEventListener('wheel', handleScroll);
+
+	function handleScroll(event) {
+	  // Prevenir el comportamiento predeterminado del scroll
+	  event.preventDefault();
+
+    // Calcular la dirección del scroll (arriba o abajo)
+    var delta = event.deltaY || event.detail || event.wheelDelta;
+    var direction = Math.sign(delta);
+
+    // Encontrar la sección visible actualmente
+    var visibleSection = null;
+    sections.forEach(function(section) {
+      var rect = section.getBoundingClientRect();
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        visibleSection = section;
+      }
+    });
+
+    // Encontrar la siguiente o anterior sección según la dirección del scroll
+    var targetSection = null;
+    if (direction > 0 && visibleSection !== sections[sections.length - 1]) {
+      targetSection = visibleSection.nextElementSibling;
+    } else if (direction < 0 && visibleSection !== sections[0]) {
+      targetSection = visibleSection.previousElementSibling;
+    }
+
+    // Realizar el desplazamiento suave hacia la sección de destino
+    if (targetSection) {
+      targetSection.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }
+</script>
+
+
+</body>
+</html>
